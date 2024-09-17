@@ -195,7 +195,7 @@
 # plt.title("Loss curve")
 # plt.show()
 #
-# # 精确率
+# # 准确率
 # plt.plot(results.history["accuracy"], label="Train Accuracy")
 # plt.plot(results.history["val_accuracy"], label="Test Accuracy")
 # plt.legend()
@@ -353,7 +353,7 @@
 # plt.title("Train loss curve")
 # plt.show()
 #
-# # 精确率
+# # 准确率
 # plt.plot(results.history["accuracy"])
 # plt.title("Train accuracy")
 # plt.show()
@@ -516,7 +516,7 @@
 # plt.title('Loss curves')
 # plt.show()
 #
-# # 精确率曲线
+# # 准确率曲线
 # plt.plot(result.history['acc'], label='Train accuracy')
 # plt.plot(result.history['val_acc'], label='Validation accuracy')
 # plt.legend()
@@ -600,7 +600,7 @@
 # plt.title('Loss curves')
 # plt.show()
 #
-# # 精确率曲线
+# # 准确率曲线
 # plt.plot(result.history['acc'], label='Train accuracy')
 # plt.plot(result.history['val_acc'], label='Validation accuracy')
 # plt.legend()
