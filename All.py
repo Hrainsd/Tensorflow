@@ -608,7 +608,7 @@
 # plt.show()
 
 
-#
+
 # # 循环神经网络RNN
 # import numpy as np
 # import pandas as pd
@@ -616,6 +616,7 @@
 # import tensorflow as tf
 # import sklearn
 # from sklearn.model_selection import train_test_split
+# from sklearn.preprocessing import StandardScaler
 #
 # # 加载数据
 # input_data = pd.read_csv(r"D:\大学\本科\计算机\人工智能\机器学习\深度学习框架--Tensorflow\data.csv")
@@ -633,7 +634,7 @@
 # x_train, x_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
 #
 # # 标准化
-# scaler = sklearn.preprocessing.StandardScaler()
+# scaler = StandardScaler()
 # x_train = scaler.fit_transform(x_train)
 # x_test = scaler.transform(x_test)
 #
